@@ -1,0 +1,10 @@
+var imfTop = 23;
+var imfDown = 4;
+var imfDivide = Math.floor(imfTop / imfDown);
+var imfJoin = imfTop % imfDown;
+
+document.querySelector(".one-f").innerHTML += imfTop + "/" + imfDown;
+document.querySelector(".two-f").innerHTML +=  imfDivide + " " + imfJoin + "/" + imfDown;
+
+
+// Go to https://jsfiddle.net/h7q56Ljc/ to see full code
